@@ -8,6 +8,11 @@ shinyUI(fluidPage(
 
     # Application title
     titlePanel("Analysis of the web page stats"),
+    p("This app will analyse some basic stats for the URL provided. It will download the web page, and parse the source code in order to provide some counts on the words and letters used in the page. Just enter the URL in the field below and click on Go. Afterwards, you can play with word length settings to filter out which words to include in the analysis."),
+    p("Link to github repository:"),
+    a("https://github.com/ciods/ddp_course_project", title = "Link to github repository"),
+    p("Link to the app documentation:"),
+    a("https://ciods.github.io/ddp_course_project/readme.html", title = "app documentation"),
     
     # Sidebar with controls
     sidebarLayout(
